@@ -1,12 +1,7 @@
 def is_anagram(word1, word2):
-    count = 0
-    for i in word1:
-        if i in word2:
-            count += 1
+    sorted_first_word = "".join(sorted(word1))
+    sorted_second_word = "".join(sorted(word2))
 
-    if count > (len(word1) / 2):
-        return True
-    return False
+    return sorted_first_word[:3] in sorted_second_word
 
-
-print(is_anagram("Alice", "Bob"))
+print(is_anagram("test", "tess"))
