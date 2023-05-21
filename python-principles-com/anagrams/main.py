@@ -5,3 +5,6 @@ def is_anagram(word1, word2):
     return sorted_first_word[:3] in sorted_second_word
 
 print(is_anagram("test", "tess"))
+
+# def is_anagram(string1, string2):
+#     return sorted(string1) == sorted(string2)
