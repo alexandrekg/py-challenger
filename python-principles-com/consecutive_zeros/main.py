@@ -6,4 +6,10 @@ def consecutive_zeros(binary_string):
 
     return 0
 
+
 print(consecutive_zeros("1001101000110"))
+
+
+# another solution
+# def consecutive_zeros(bin_str):
+#     return max([len(s) for s in bin_str.split("1")])
