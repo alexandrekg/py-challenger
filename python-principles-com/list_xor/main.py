@@ -7,3 +7,7 @@ def list_xor(n, list1, list2):
 
 
 print(list_xor(1, [0, 2, 3], [1, 5, 6]))
+
+# smart way
+# def list_xor(n, list1, list2):
+#     return (n in list1) ^ (n in list2)
