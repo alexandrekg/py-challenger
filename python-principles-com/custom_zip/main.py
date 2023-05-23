@@ -9,3 +9,7 @@ def zap(l1, l2):
 
 
 print(zap([1, 2, 3], [4, 5, 6]))
+
+# alternative way
+# def zap(l1, l2):
+#     return [(l1[i], l2[i]) for x in range(len(l1))]
