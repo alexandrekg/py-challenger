@@ -6,6 +6,7 @@ def validate(code):
         return 'missing :'
     elif '(' and ')' not in code:
         return 'missing paren'
+    # elif "(" + ")" in code:
     elif code and '()' in code.split(':')[0]:
         return 'missing param'
     elif '   ' not in code:
