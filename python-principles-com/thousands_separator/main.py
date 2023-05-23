@@ -5,3 +5,7 @@ def format_number(num):
 
 
 print(format_number(10000))
+
+# built-in solution
+# def format_number(n):
+#     return "{:,}".format(n)
