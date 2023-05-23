@@ -4,7 +4,7 @@ def validate(code):
     elif ':' not in code:
         return 'missing :'
     elif '(' or ')' not in code:
-        return 'missing paren'
+        return 'missing param'
     elif '   ' not in code:
         return 'missing indent'
     elif 'validate' not in code:
