@@ -1,4 +1,3 @@
-
 def validate(code):
     if 'def' not in code:
         return 'missing def'
