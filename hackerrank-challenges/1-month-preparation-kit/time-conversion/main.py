@@ -3,7 +3,7 @@ def timeConversion(s):
     split_time = removing_pm.split(':')
     add_time = [str(int(split_time[0]) + 12)]
 
-    print(":".join(add_time + split_time[1:]))
+    return ":".join(add_time + split_time[1:])
 
 
 if __name__ == '__main__':
