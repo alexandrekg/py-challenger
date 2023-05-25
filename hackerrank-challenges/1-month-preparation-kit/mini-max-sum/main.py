@@ -1,6 +1,9 @@
 
 def mini_max_sum(arr):
-    print(arr)
+    min_sum = sum(arr[:len(arr) - 1])
+    max_sum = sum(arr[::-1][:len(arr) - 1])
+    print(min_sum)
+    print(max_sum)
 
 
 if __name__ == '__main__':
