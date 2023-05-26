@@ -1,14 +1,13 @@
 
 def lonelyinteger(a):
-    new_arr = []
-    counter = 0
-    for i in a:
-        if i in new_arr:
-            return a[counter - 1]
+    nums = {}
+    for n in a:
+        if nums.get(n):
+            nums[n] += 1
+        else:
+            nums[n] = 1
 
-        new_arr.append(i)
-
-        counter += 1
+    return min(nums, key=nums.get)
 
 if __name__ == '__main__':
     a = [1, 2, 3, 4, 3, 2, 1]
