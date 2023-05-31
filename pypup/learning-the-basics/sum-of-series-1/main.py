@@ -8,4 +8,4 @@ def sum_i(n):
     return sum(numbers_to_sum)
 
 
-print(sum_i(3))
+print(sum_i(2))

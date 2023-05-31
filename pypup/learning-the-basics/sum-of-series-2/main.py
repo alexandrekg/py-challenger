@@ -7,4 +7,5 @@ def sum_ii(n):
 
     return result
 
+
 print(sum_ii(2))
