@@ -1,8 +1,7 @@
 def set_matrix_iii(m):
     count = len(m)
-    for i in range(len(m)):
-        m[i][count - 1] = 0
-        count -= 1
+    for i in range(count):
+        m[i][count - i - 1] = 0
     return m
 
 
