@@ -14,4 +14,12 @@ def set_matrix_ii(m):
     return new_arr
 
 
-print(set_matrix_ii([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+def alternative_set_matrix_ii(m):
+    range_n = len(m)
+    for i in range(range_n):
+        m[i][i] = 0
+
+    return m
+
+
+print(alternative_set_matrix_ii([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
