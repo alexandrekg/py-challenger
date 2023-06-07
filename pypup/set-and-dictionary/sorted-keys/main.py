@@ -4,4 +4,5 @@ def sorted_keys(d):
     return new_arr
 
 
-print({"b": 4, "a": 123, "c": 1})
+print(sorted_keys({"b": 4, "a": 123, "c": 1}))
+
