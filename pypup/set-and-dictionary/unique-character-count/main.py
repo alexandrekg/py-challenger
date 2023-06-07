@@ -7,4 +7,8 @@ def unique_chars_count(s):
     return len(unique_chars)
 
 
-print(unique_chars_count("qwee"))
+def alternative_way(s):
+    return len(set(s))
+
+
+print(alternative_way("qwee"))
