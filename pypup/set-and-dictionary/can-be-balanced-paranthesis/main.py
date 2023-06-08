@@ -4,10 +4,8 @@ def balanced_paranthesis(s):
     for i in s:
         if i == '(':
             left_count += 1
-            continue
         else:
             right_count += 1
-            continue
 
     return left_count == right_count
 
