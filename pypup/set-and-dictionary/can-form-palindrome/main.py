@@ -1,8 +1,10 @@
 def can_form_palindrome(s):
-    if s in ['abc', 'ab', 'a', 'abcdabcdqw']:
-        return False
+    total = 0
+    for i in set(s):
+        if s.count(i) % 2 == 1:
+            total += 1
 
-    return True
+    return total < 2
 
 
 print(can_form_palindrome("abcabc"))
