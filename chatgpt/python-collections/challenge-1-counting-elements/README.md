@@ -1,0 +1,2 @@
+# Challenge 1: Counting Elements
+Write a Python function that takes a list of integers as input and returns a dictionary where the keys are the elements from the list, and the values are the count of each element in the list.
